@@ -1,6 +1,8 @@
 This project uses laravel framework version 9.52.4 and php version 8.0.9.
 Clone project. URL is https://github.com/ancyea/referralcode.git
 Run composer install
+Make changes to env.
+Run migrations.
 Make necessary changes to user variable in seeder CreateAdminSeeder.
 Run  php artisan db:seed --class=CreateAdminSeeder
 Run  php artisan db:seed --class=PointsTableSeeder
